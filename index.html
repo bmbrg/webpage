@@ -2,7 +2,7 @@
   <!DOCTYPE html>
   <html>
   <head>
-    <title>quincas</title>
+    <title>Joaquim Bamberg</title>
     <style>
       body {
         background-color: rgb(15, 15, 15);
@@ -43,15 +43,14 @@ body {top: 0; left: 0; width: 99%; height: 97%;
 <a href="https://www.instagram.com/quimbam/">instagram</a> //
 <a href="https://www.youtube.com/JoaquimBamberg">youtube</a> //
 <a href="contato">contact</a>
-	
+
 <img id="easter-egg" src="https://drive.google.com/uc?id=183sctSmQa4ynWs6vBMXaURshzTaWEZ1g" style="display: none; position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);">
 <br>
 <br>
 </body>
 </html>
 
-	
-	<script>
+<script>
   var clicks = 0;
   document.body.addEventListener("click", function() {
       clicks++;
@@ -59,13 +58,14 @@ body {top: 0; left: 0; width: 99%; height: 97%;
           document.getElementById("easter-egg").style.display = "block";
       }
   });
-		
-		document.body.addEventListener("touchstart", function() {
+  
+  document.body.addEventListener("touchstart", function() {
     clicks++;
-    if (clicks === 3) {
+    if (clicks === 30) {
         document.getElementById("easter-egg").style.display = "block";
-		
-		
-  });
-			
+    }
+});
+</script>
   </script>
+
+  
