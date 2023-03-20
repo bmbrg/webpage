@@ -59,4 +59,13 @@ body {top: 0; left: 0; width: 99%; height: 97%;
           document.getElementById("easter-egg").style.display = "block";
       }
   });
+		
+		document.body.addEventListener("touchstart", function() {
+    clicks++;
+    if (clicks === 3) {
+        document.getElementById("easter-egg").style.display = "block";
+		
+		
+  });
+			
   </script>
